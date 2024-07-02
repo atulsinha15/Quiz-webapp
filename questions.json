@@ -1,0 +1,452 @@
+[
+  {
+      "id": "1",
+      "question": "Which of the following is not a feature of OOP in C++?",
+      "options": ["Encapsulation", "Polymorphism", "Inheritance", "Compilation"],
+      "correct": "Compilation"
+  },
+  {
+      "id": "2",
+      "question": "Which feature of OOP indicates code reusability?",
+      "options": ["Encapsulation", "Abstraction", "Inheritance", "Polymorphism"],
+      "correct": "Inheritance"
+  },
+  {
+      "id": "3",
+      "question": "Which of the following is a keyword used for accessing members of the base class?",
+      "options": ["super", "this", "base", "parent"],
+      "correct": "base"
+  },
+  {
+      "id": "4",
+      "question": "Which of the following cannot be used with classes?",
+      "options": ["friend functions", "private members", "public members", "global functions"],
+      "correct": "global functions"
+  },
+  {
+      "id": "5",
+      "question": "Which of the following concepts means determining at runtime what method to invoke?",
+      "options": ["Data hiding", "Dynamic binding", "Dynamic loading", "Data abstraction"],
+      "correct": "Dynamic binding"
+  },
+  {
+      "id": "6",
+      "question": "Which operator is used to allocate memory dynamically in C++?",
+      "options": ["malloc", "calloc", "new", "alloc"],
+      "correct": "new"
+  },
+  {
+      "id": "7",
+      "question": "Which of the following statements is correct about constructors?",
+      "options": [
+          "They can have any return type.",
+          "They cannot be overloaded.",
+          "They are automatically called when an object is created.",
+          "They are used to allocate memory."
+      ],
+      "correct": "They are automatically called when an object is created."
+  },
+  {
+      "id": "8",
+      "question": "Which of the following is not a type of constructor in C++?",
+      "options": ["Default constructor", "Parameterized constructor", "Copy constructor", "Virtual constructor"],
+      "correct": "Virtual constructor"
+  },
+  {
+      "id": "9",
+      "question": "Which of the following concepts is used to implement late binding?",
+      "options": ["Virtual functions", "Operator overloading", "Templates", "Friend functions"],
+      "correct": "Virtual functions"
+  },
+  {
+      "id": "10",
+      "question": "What is the main purpose of a destructor?",
+      "options": ["To initialize the object", "To deallocate memory", "To allocate memory", "To call the base class"],
+      "correct": "To deallocate memory"
+  },
+  {
+      "id": "11",
+      "question": "Which of the following can be used to prevent inheritance in C++?",
+      "options": ["final", "sealed", "static", "const"],
+      "correct": "final"
+  },
+  {
+      "id": "12",
+      "question": "What is the default access level for members of a class in C++?",
+      "options": ["public", "protected", "private", "internal"],
+      "correct": "private"
+  },
+  {
+      "id": "13",
+      "question": "Which concept of OOP is shown by the function overriding feature in C++?",
+      "options": ["Abstraction", "Inheritance", "Encapsulation", "Polymorphism"],
+      "correct": "Polymorphism"
+  },
+  {
+      "id": "14",
+      "question": "Which of the following is true about abstract classes in C++?",
+      "options": [
+          "They cannot have any data members.",
+          "They cannot have constructors.",
+          "They cannot have normal methods.",
+          "They cannot be instantiated."
+      ],
+      "correct": "They cannot be instantiated."
+  },
+  {
+      "id": "15",
+      "question": "What does the keyword 'this' refer to in C++?",
+      "options": ["It refers to the class", "It refers to the current object", "It refers to the base class", "It refers to the constructor"],
+      "correct": "It refers to the current object"
+  },
+  {
+      "id": "16",
+      "question": "Which of the following is a correct statement about operator overloading?",
+      "options": [
+          "Operators cannot be overloaded.",
+          "New operators can be defined in C++.",
+          "Only existing operators can be overloaded.",
+          "Operator overloading can only be done for arithmetic operators."
+      ],
+      "correct": "Only existing operators can be overloaded."
+  },
+  {
+      "id": "17",
+      "question": "Which of the following is not a type of inheritance in C++?",
+      "options": ["Single inheritance", "Multiple inheritance", "Multilevel inheritance", "Private inheritance"],
+      "correct": "Private inheritance"
+  },
+  {
+      "id": "18",
+      "question": "What is the role of the 'friend' keyword in C++?",
+      "options": [
+          "It allows a function or a class to access private and protected members of another class.",
+          "It creates a friend relationship between two classes.",
+          "It is used to inherit the properties of another class.",
+          "It is used to overload operators."
+      ],
+      "correct": "It allows a function or a class to access private and protected members of another class."
+  },
+  {
+      "id": "19",
+      "question": "Which of the following best describes encapsulation?",
+      "options": [
+          "The ability to hide the internal details of an object.",
+          "The ability to create new data types.",
+          "The ability to overload functions.",
+          "The ability to inherit properties from a base class."
+      ],
+      "correct": "The ability to hide the internal details of an object."
+  },
+  {
+      "id": "20",
+      "question": "Which keyword is used to define a virtual base class in C++?",
+      "options": ["virtual", "abstract", "base", "override"],
+      "correct": "virtual"
+  },
+  {
+      "id": "21",
+      "question": "What is the main difference between struct and class in C++?",
+      "options": [
+          "Struct members are public by default; class members are private by default.",
+          "Struct cannot have member functions; class can.",
+          "Struct can only have primitive data types as members; class can have any type.",
+          "Struct is used for procedural programming; class is used for OOP."
+      ],
+      "correct": "Struct members are public by default; class members are private by default."
+  },
+  {
+      "id": "22",
+      "question": "Which of the following is the correct syntax to declare a pure virtual function in C++?",
+      "options": [
+          "virtual void functionName() = 0;",
+          "virtual void functionName() {}",
+          "void virtual functionName() = 0;",
+          "void functionName() virtual = 0;"
+      ],
+      "correct": "virtual void functionName() = 0;"
+  },
+  {
+      "id": "23",
+      "question": "Which feature of OOP is used to model real-world entities?",
+      "options": ["Inheritance", "Polymorphism", "Abstraction", "Encapsulation"],
+      "correct": "Abstraction"
+  },
+  {
+      "id": "24",
+      "question": "What is the default access level for members of a struct in C++?",
+      "options": ["public", "protected", "private", "internal"],
+      "correct": "public"
+  },
+  {
+      "id": "25",
+      "question": "Which of the following is used to define a destructor in C++?",
+      "options": ["~", "#", "!", "&"],
+      "correct": "~"
+  },
+  {
+      "id": "26",
+      "question": "What is the purpose of the 'static' keyword in C++?",
+      "options": [
+          "To create a global variable.",
+          "To define a variable that retains its value between function calls.",
+          "To create a constant variable.",
+          "To create a dynamic variable."
+      ],
+      "correct": "To define a variable that retains its value between function calls."
+  },
+  {
+      "id": "27",
+      "question": "Which of the following is an example of multiple inheritance in C++?",
+      "options": [
+          "A class derived from two base classes.",
+          "A class derived from another derived class.",
+          "A class containing multiple member functions.",
+          "A class containing multiple data members."
+      ],
+      "correct": "A class derived from two base classes."
+  },
+  {
+      "id": "28",
+      "question": "Which of the following is true about virtual functions in C++?",
+      "options": [
+          "They must be redefined in the derived class.",
+          "They cannot be redefined in the derived class.",
+          "They enable runtime polymorphism.",
+          "They are defined using the 'virtual' keyword in the derived class."
+      ],
+      "correct": "They enable runtime polymorphism."
+  },
+  {
+      "id": "29",
+      "question": "Which of the following is correct about overloading operators in C++?",
+      "options": [
+          "All operators can be overloaded.",
+          "Only certain operators can be overloaded.",
+          "Operators can only be overloaded as member functions.",
+          "Operators can only be overloaded as friend functions."
+      ],
+      "correct": "Only certain operators can be overloaded."
+  },
+  {
+      "id": "30",
+      "question": "Which of the following is the correct syntax to declare a friend function in C++?",
+      "options": [
+          "friend void functionName();",
+          "void friend functionName();",
+          "friend functionName() void;",
+          "friend functionName();"
+      ],
+      "correct": "friend void functionName();"
+  },
+  {
+      "id": "31",
+      "question": "What is the purpose of the 'const' keyword in C++?",
+      "options": [
+          "To create a constant variable.",
+          "To create a global variable.",
+          "To create a static variable.",
+          "To create a dynamic variable."
+      ],
+      "correct": "To create a constant variable."
+  },
+  {
+      "id": "32",
+      "question": "Which of the following is true about constructors in C++?",
+      "options": [
+          "They can be overloaded.",
+          "They cannot be overloaded.",
+          "They must have a return type.",
+          "They can be virtual."
+      ],
+      "correct": "They can be overloaded."
+  },
+  {
+      "id": "33",
+      "question": "Which of the following is used to define a class template in C++?",
+      "options": ["template <class T>", "template class T", "template <typename T>", "template typename T"],
+      "correct": "template <class T>"
+  },
+  {
+      "id": "34",
+      "question": "What is the main purpose of the 'inline' keyword in C++?",
+      "options": [
+          "To suggest to the compiler to replace the function call with the function code.",
+          "To define a function inside a class.",
+          "To create a global function.",
+          "To create a static function."
+      ],
+      "correct": "To suggest to the compiler to replace the function call with the function code."
+  },
+  {
+      "id": "35",
+      "question": "Which of the following best describes a namespace in C++?",
+      "options": [
+          "A container for variables and functions.",
+          "A container for classes and objects.",
+          "A container for managing the scope of identifiers.",
+          "A container for managing memory."
+      ],
+      "correct": "A container for managing the scope of identifiers."
+  },
+  {
+      "id": "36",
+      "question": "Which of the following is true about virtual destructors in C++?",
+      "options": [
+          "They are used to release resources allocated to a class.",
+          "They can be used to prevent memory leaks in inheritance hierarchies.",
+          "They must be defined in the derived class.",
+          "They cannot be defined in the base class."
+      ],
+      "correct": "They can be used to prevent memory leaks in inheritance hierarchies."
+  },
+  {
+      "id": "37",
+      "question": "What is the main advantage of using the 'new' and 'delete' operators over 'malloc' and 'free' in C++?",
+      "options": [
+          "They are faster.",
+          "They provide better memory management.",
+          "They call constructors and destructors.",
+          "They are compatible with C code."
+      ],
+      "correct": "They call constructors and destructors."
+  },
+  {
+      "id": "38",
+      "question": "Which of the following is correct about abstract classes in C++?",
+      "options": [
+          "They can be instantiated.",
+          "They cannot have any member functions.",
+          "They cannot have any member variables.",
+          "They can have pure virtual functions."
+      ],
+      "correct": "They can have pure virtual functions."
+  },
+  {
+      "id": "39",
+      "question": "Which of the following is not a valid access specifier in C++?",
+      "options": ["public", "protected", "private", "internal"],
+      "correct": "internal"
+  },
+  {
+      "id": "40",
+      "question": "What is the correct way to declare a pure virtual function in a class?",
+      "options": [
+          "virtual void functionName() = 0;",
+          "void virtual functionName() = 0;",
+          "virtual void functionName() {}",
+          "void functionName() virtual = 0;"
+      ],
+      "correct": "virtual void functionName() = 0;"
+  },
+  {
+      "id": "41",
+      "question": "Which of the following best describes polymorphism in C++?",
+      "options": [
+          "The ability to hide the internal details of an object.",
+          "The ability to create new data types.",
+          "The ability to take many forms.",
+          "The ability to inherit properties from a base class."
+      ],
+      "correct": "The ability to take many forms."
+  },
+  {
+      "id": "42",
+      "question": "Which of the following is correct about friend functions in C++?",
+      "options": [
+          "They can access private and protected members of a class.",
+          "They cannot access private members of a class.",
+          "They can only be used within the class.",
+          "They must be defined inside the class."
+      ],
+      "correct": "They can access private and protected members of a class."
+  },
+  {
+      "id": "43",
+      "question": "What is the role of the 'virtual' keyword in C++?",
+      "options": [
+          "To indicate that a function can be overridden in a derived class.",
+          "To create a static function.",
+          "To define a template function.",
+          "To create a constant function."
+      ],
+      "correct": "To indicate that a function can be overridden in a derived class."
+  },
+  {
+      "id": "44",
+      "question": "Which of the following is true about function overloading in C++?",
+      "options": [
+          "Two functions cannot have the same name.",
+          "Function overloading allows functions with different return types to have the same name.",
+          "Function overloading is not allowed.",
+          "Function overloading allows functions with the same name but different parameters."
+      ],
+      "correct": "Function overloading allows functions with the same name but different parameters."
+  },
+  {
+      "id": "45",
+      "question": "Which of the following is correct about class templates in C++?",
+      "options": [
+          "They allow functions to be written in a generic way.",
+          "They allow classes to be written in a generic way.",
+          "They can only be used with primitive data types.",
+          "They cannot have member functions."
+      ],
+      "correct": "They allow classes to be written in a generic way."
+  },
+  {
+      "id": "46",
+      "question": "Which of the following is correct about inheritance in C++?",
+      "options": [
+          "A derived class cannot have more than one base class.",
+          "A base class cannot have more than one derived class.",
+          "A derived class can inherit from multiple base classes.",
+          "Inheritance cannot be used with templates."
+      ],
+      "correct": "A derived class can inherit from multiple base classes."
+  },
+  {
+      "id": "47",
+      "question": "Which of the following is correct about access specifiers in C++?",
+      "options": [
+          "They determine the access level of class members.",
+          "They determine the data type of class members.",
+          "They determine the size of class members.",
+          "They determine the visibility of class members to the compiler."
+      ],
+      "correct": "They determine the access level of class members."
+  },
+  {
+      "id": "48",
+      "question": "What is the purpose of the 'override' keyword in C++?",
+      "options": [
+          "To indicate that a function is a virtual function.",
+          "To indicate that a function is overriding a base class function.",
+          "To create a pure virtual function.",
+          "To create a static function."
+      ],
+      "correct": "To indicate that a function is overriding a base class function."
+  },
+  {
+      "id": "49",
+      "question": "Which of the following is true about operator overloading in C++?",
+      "options": [
+          "Operators cannot be overloaded.",
+          "Only arithmetic operators can be overloaded.",
+          "New operators can be defined.",
+          "Existing operators can be redefined."
+      ],
+      "correct": "Existing operators can be redefined."
+  },
+  {
+      "id": "50",
+      "question": "Which of the following is the correct way to declare a destructor in C++?",
+      "options": [
+          "~ClassName();",
+          "ClassName();",
+          "~ClassName{};",
+          "ClassName{};"
+      ],
+      "correct": "~ClassName();"
+  }
+]
